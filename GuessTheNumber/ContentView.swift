@@ -5,6 +5,8 @@
 //  Created by 64001050 on 2/21/24.
 //
 
+// test comment to test github
+
 import SwiftUI
 
 struct ContentView: View {
@@ -13,6 +15,7 @@ struct ContentView: View {
     let targetNumber = Int.random(in: 1...100)
     @State var gameEnded = false
 
+    // Hello there :)
     var body: some View {
         VStack {
             Text("Welcome to Guess the Number!")
